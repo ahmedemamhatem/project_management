@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": " field:pricing_manager_name",
+ "autoname": "field:pricing_manager_name",
  "creation": "2023-12-14 19:16:19.591808",
  "default_view": "List",
  "doctype": "DocType",
@@ -36,17 +36,16 @@
    "reqd": 1
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "pricing_manager_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
    "label": "Pricing Manager Name",
-   "reqd": 1,
    "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-14 19:42:07.471549",
+ "modified": "2023-12-14 19:58:57.055069",
  "modified_by": "Administrator",
  "module": "Project Management",
  "name": "Pricing Manager",
