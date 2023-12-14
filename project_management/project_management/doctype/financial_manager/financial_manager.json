@@ -1,27 +1,19 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:purchase_manager_name",
+ "autoname": "field:financial_manager_name",
  "creation": "2023-12-14 19:17:28.117727",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "purchase_manager_name",
+  "financial_manager_name",
   "purchase_manager_address",
   "purchase_manager_email",
   "purchase_manager_phone"
  ],
  "fields": [
-  {
-   "fieldname": "purchase_manager_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Financial Manager Name",
-   "reqd": 1,
-   "unique": 1
-  },
   {
    "fieldname": "purchase_manager_address",
    "fieldtype": "Data",
@@ -42,11 +34,19 @@
    "in_list_view": 1,
    "label": "Financial Manager Phone",
    "reqd": 1
+  },
+  {
+   "fieldname": "financial_manager_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Financial Manager Name",
+   "reqd": 1,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-14 19:25:59.665140",
+ "modified": "2023-12-14 19:42:49.844007",
  "modified_by": "Administrator",
  "module": "Project Management",
  "name": "Financial Manager",
