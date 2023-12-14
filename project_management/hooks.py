@@ -219,3 +219,8 @@ app_license = "mit"
 # auth_hooks = [
 #	"project_management.auth.validate"
 # ]
+fixtures = [
+   
+    {"dt": "Custom Field"},
+    {"dt": "Property Setter"},
+]
