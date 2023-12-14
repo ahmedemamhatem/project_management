@@ -223,4 +223,5 @@ fixtures = [
    
     {"dt": "Custom Field"},
     {"dt": "Property Setter"},
+    {"dt": "Translation"},
 ]
