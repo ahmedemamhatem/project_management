@@ -17,28 +17,36 @@
   {
    "fieldname": "purchase_manager_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Purchase Manager Name",
+   "reqd": 1,
    "unique": 1
   },
   {
    "fieldname": "purchase_manager_address",
    "fieldtype": "Data",
-   "label": "Purchase Manager Address"
+   "in_list_view": 1,
+   "label": "Purchase Manager Address",
+   "reqd": 1
   },
   {
    "fieldname": "purchase_manager_email",
    "fieldtype": "Data",
-   "label": "Purchase Manager Email"
+   "in_list_view": 1,
+   "label": "Purchase Manager Email",
+   "reqd": 1
   },
   {
    "fieldname": "purchase_manager_phone",
    "fieldtype": "Phone",
-   "label": "Purchase Manager Phone"
+   "in_list_view": 1,
+   "label": "Purchase Manager Phone",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-14 19:15:35.620098",
+ "modified": "2023-12-14 19:26:42.572551",
  "modified_by": "Administrator",
  "module": "Project Management",
  "name": "Purchase Manager",

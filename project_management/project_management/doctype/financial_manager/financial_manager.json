@@ -17,28 +17,36 @@
   {
    "fieldname": "purchase_manager_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Financial Manager Name",
+   "reqd": 1,
    "unique": 1
   },
   {
    "fieldname": "purchase_manager_address",
    "fieldtype": "Data",
-   "label": "Financial Manager Address"
+   "in_list_view": 1,
+   "label": "Financial Manager Address",
+   "reqd": 1
   },
   {
    "fieldname": "purchase_manager_email",
    "fieldtype": "Data",
-   "label": "Financial Manager Email"
+   "in_list_view": 1,
+   "label": "Financial Manager Email",
+   "reqd": 1
   },
   {
    "fieldname": "purchase_manager_phone",
    "fieldtype": "Phone",
-   "label": "Financial Manager Phone"
+   "in_list_view": 1,
+   "label": "Financial Manager Phone",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-14 19:17:47.029391",
+ "modified": "2023-12-14 19:25:59.665140",
  "modified_by": "Administrator",
  "module": "Project Management",
  "name": "Financial Manager",

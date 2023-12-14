@@ -17,28 +17,36 @@
   {
    "fieldname": "purchase_manager_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Pricing Manager Name",
+   "reqd": 1,
    "unique": 1
   },
   {
    "fieldname": "purchase_manager_address",
    "fieldtype": "Data",
-   "label": "Pricing Manager Address"
+   "in_list_view": 1,
+   "label": "Pricing Manager Address",
+   "reqd": 1
   },
   {
    "fieldname": "purchase_manager_email",
    "fieldtype": "Data",
-   "label": "Pricing Manager Email"
+   "in_list_view": 1,
+   "label": "Pricing Manager Email",
+   "reqd": 1
   },
   {
    "fieldname": "purchase_manager_phone",
    "fieldtype": "Phone",
-   "label": "Pricing Manager Phone"
+   "in_list_view": 1,
+   "label": "Pricing Manager Phone",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-14 19:16:46.393775",
+ "modified": "2023-12-14 19:26:29.764936",
  "modified_by": "Administrator",
  "module": "Project Management",
  "name": "Pricing Manager",
