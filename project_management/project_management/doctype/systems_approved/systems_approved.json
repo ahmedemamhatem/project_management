@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-31 04:57:05.908405",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "systems",
+  "systems_items"
+ ],
+ "fields": [
+  {
+   "fieldname": "systems",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Systems",
+   "options": "Systems"
+  },
+  {
+   "fieldname": "systems_items",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Systems Items"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-31 05:06:54.012641",
+ "modified_by": "Administrator",
+ "module": "Project Management",
+ "name": "Systems Approved",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

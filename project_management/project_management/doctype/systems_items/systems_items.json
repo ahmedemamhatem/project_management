@@ -1,0 +1,35 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2023-12-31 04:54:05.255821",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Link",
+   "label": "Systems Items Approval",
+   "options": "Systems Items Approval",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-31 05:02:50.998512",
+ "modified_by": "Administrator",
+ "module": "Project Management",
+ "name": "Systems Items",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
