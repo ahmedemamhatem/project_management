@@ -24,5 +24,18 @@
   "name": "276bb64495",
   "source_text": "Customer Name",
   "translated_text": "Main Contractor Name"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-01-05 13:05:32.426827",
+  "name": "7f474ccace",
+  "source_text": "Sales Order",
+  "translated_text": "Progress Invoice"
  }
 ]
